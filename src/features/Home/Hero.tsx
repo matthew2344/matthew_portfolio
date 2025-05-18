@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="flex flex-wrap">
           <div className="lg:w-2/4">
             <p className="flex">
-              Accepting projects for Q3 2025.{" "}
+              {"Connect with me on my socials."}{" "}
               <div className="rounded-full w-1.5 h-1.5 bg-[#2d8f29]"></div>
             </p>
             <div className="mt-6 flex items-center gap-x-20">

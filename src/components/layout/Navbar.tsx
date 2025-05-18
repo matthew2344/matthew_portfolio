@@ -57,14 +57,18 @@ const Navbar = () => {
               <Link href="/" className="text-[#6d776e] hover:text-[#6d776e]/60">
                 Back
               </Link>
-              <p className="text-center">CV</p>
-              <button
-                className="flex justify-end items-center gap-x-2"
-                onClick={handleShow}
-              >
-                INDEX
-                <Hamburger />
-              </button>
+              {pathname === "/cv" && (
+                <>
+                  <p className="text-center">CV</p>
+                  <button
+                    className="flex justify-end items-center gap-x-2"
+                    onClick={handleShow}
+                  >
+                    INDEX
+                    <Hamburger />
+                  </button>
+                </>
+              )}
             </div>
             <AnimatePresence>
               {isShow && (
