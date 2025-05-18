@@ -10,7 +10,7 @@ const NotFoundPage = () => {
       >
         <h1 className="font-medium text-9xl tracking-wider text-center">404</h1>
         <p className="text-sm text-center mt-2 min-w-5">
-          The page you are looking for doesn't exist or has been moved
+          {"The page you are looking for doesn't exist or has been moved"}
         </p>
       </BorderAnimation>
     </div>
