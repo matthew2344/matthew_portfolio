@@ -17,6 +17,16 @@ export const SbphProjects: ProjectCvItemProps[] = [
     service: "Full-Stack Development, Microservices with Monolithic Frontend",
     tech: "Laravel, Inertia, React.js, MySQL, Tailwindcss, HeroUI ( Previously NextUI )",
   },
+  {
+    project: "Health Kitchen Manila",
+    service: "Full-Stack Development, Microservices with Monolithic Frontend",
+    tech: "Laravel, Inertia, React.js, MySQL, Tailwindcss, Ant Design",
+  },
+  {
+    project: "Alphera Marine",
+    service: "Full-Stack Development, Microservices with Monolithic Frontend",
+    tech: "Laravel, Inertia, React.js, MySQL, Tailwindcss, HeroUI",
+  },
 ];
 
 export const CsiProjects: ProjectCvItemProps[] = [
